@@ -1,7 +1,7 @@
 from langchain_tavily import TavilySearch
 import json
 from langchain_core.messages import ToolMessage
-from langgraph.types import interrupt
+from langgraph.types import Command, interrupt
 from langchain_core.tools import tool
 
 @tool
